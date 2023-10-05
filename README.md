@@ -2,7 +2,7 @@
 
 ### Requirements
 
-Ensure you have **Docker Desktop** version v4.24+ and **Docker Compose** version v2.22+. You can check your compose version with the `docker compose version` command.
+Ensure you have **Docker Desktop** version v4.24+ and **Docker Compose** version v2.22+. You can check your compose version with the `docker compose version` command
 
 ### Installation
 
@@ -25,7 +25,7 @@ docker compose watch
 
 - Go to http://localhost:3000 in your browser
 - Try changing some file, such as `src/app/page.tsx`, and save it
-- You should see in the terminal, where you ran the `watch`` command, that the change was detected by Docker.
+- You should see in the terminal, where you ran the `watch` command, that the change was detected by Docker
 - Now go back to your browser, and it should be updated with your change
 
 #### Rebuilding the image and container
